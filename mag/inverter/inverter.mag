@@ -1,15 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1741807828
+timestamp 1742162383
 << poly >>
 rect 144 218 174 811
 << metal1 >>
 rect 98 908 132 992
 rect 186 194 220 852
 rect 98 44 132 134
-use grid  grid_0 /foss/designs/mag
-timestamp 1735420333
+use grid  grid_0
+timestamp 1741966214
 transform 1 0 61 0 1 10
 box -61 -10 259 1053
 use sky130_fd_pr__nfet_01v8_94VHSF  sky130_fd_pr__nfet_01v8_94VHSF_0
@@ -20,7 +20,7 @@ use sky130_fd_pr__pfet_01v8_3UHD8Q  sky130_fd_pr__pfet_01v8_3UHD8Q_0
 timestamp 1741718955
 transform 1 0 159 0 1 879
 box -109 -107 109 107
-use viapoly_M1  viapoly_M1_0 /foss/designs/mag/via
+use viapoly_M1  viapoly_M1_0
 timestamp 1647014411
 transform 1 0 40 0 1 252
 box 34 198 112 264

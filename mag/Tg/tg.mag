@@ -1,14 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1742161961
+timestamp 1742162383
 << poly >>
 rect 142 567 172 636
 rect 142 252 172 325
 << metal1 >>
 rect 96 224 130 668
 rect 184 226 218 702
-use grid  grid_0 /foss/designs/mag/
+use grid  grid_0
 timestamp 1741966214
 transform 1 0 61 0 1 10
 box -61 -10 259 1053

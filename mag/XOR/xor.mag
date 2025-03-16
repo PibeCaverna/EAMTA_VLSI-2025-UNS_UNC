@@ -1,0 +1,176 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1741977712
+<< error_s >>
+rect 416 424 626 426
+rect 416 396 422 398
+rect 464 396 510 398
+rect 552 396 598 398
+<< poly >>
+rect -365 950 546 980
+rect -365 702 -331 950
+rect -138 874 -108 950
+rect 516 882 546 950
+rect -226 546 -196 618
+rect -320 512 -196 546
+rect -226 402 -196 512
+rect -138 418 -108 634
+rect 94 398 124 584
+rect 182 398 212 584
+rect 428 382 458 568
+rect 516 398 546 584
+rect -272 150 2 184
+<< metal1 >>
+rect -185 982 627 1037
+rect -473 702 -331 736
+rect -476 512 -378 546
+rect -376 502 -366 556
+rect -312 502 -302 556
+rect -272 310 -238 886
+rect -184 646 -150 982
+rect -20 824 -10 876
+rect 42 824 52 876
+rect -96 534 -62 706
+rect 136 594 170 982
+rect 224 916 592 950
+rect 224 594 258 916
+rect 382 594 416 916
+rect -96 500 50 534
+rect -272 184 -238 280
+rect -184 55 -150 406
+rect -96 280 -62 500
+rect 360 490 370 544
+rect 424 490 434 544
+rect -26 432 228 466
+rect 470 458 504 880
+rect 558 874 592 916
+rect 558 822 600 874
+rect 652 822 662 874
+rect 558 594 592 822
+rect -26 184 8 432
+rect 382 424 804 458
+rect 48 55 82 386
+rect 382 142 416 424
+rect 224 108 416 142
+rect 382 96 416 108
+rect 558 55 592 386
+rect -184 0 628 55
+<< via1 >>
+rect -366 502 -312 556
+rect -10 824 42 876
+rect 370 490 424 544
+rect 600 822 652 874
+<< metal2 >>
+rect -10 898 652 950
+rect -10 876 42 898
+rect -10 814 42 824
+rect 600 874 652 898
+rect 600 812 652 822
+rect -366 556 -312 566
+rect -312 544 426 554
+rect -312 502 370 544
+rect -366 492 -312 502
+rect 424 502 426 544
+rect 370 480 424 490
+use grid  grid_0 /foss/designs/mag
+timestamp 1741966214
+transform 1 0 -92 0 1 10
+box -61 -10 259 1053
+use grid  grid_1
+timestamp 1741966214
+transform 1 0 548 0 1 10
+box -61 -10 259 1053
+use grid  grid_2
+timestamp 1741966214
+transform 1 0 228 0 1 10
+box -61 -10 259 1053
+use grid  grid_3
+timestamp 1741966214
+transform 1 0 -412 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_3Y5EQC  sky130_fd_pr__nfet_01v8_3Y5EQC_0 /foss/designs/mag/via
+timestamp 1647014411
+transform 0 1 -120 -1 0 167
+box -39 66 39 132
+use sky130_fd_pr__nfet_01v8_KRUHEH  sky130_fd_pr__nfet_01v8_KRUHEH_0
+timestamp 1741964726
+transform 1 0 -123 0 1 343
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_KRUHEH  sky130_fd_pr__nfet_01v8_KRUHEH_1
+timestamp 1741964726
+transform 1 0 -211 0 1 343
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_VKD229  sky130_fd_pr__nfet_01v8_VKD229_0
+timestamp 1741959576
+transform 1 0 531 0 1 248
+box -73 -176 73 176
+use sky130_fd_pr__nfet_01v8_VKD229  sky130_fd_pr__nfet_01v8_VKD229_1
+timestamp 1741959576
+transform 1 0 109 0 1 248
+box -73 -176 73 176
+use sky130_fd_pr__nfet_01v8_VKD229  sky130_fd_pr__nfet_01v8_VKD229_2
+timestamp 1741959576
+transform 1 0 197 0 1 248
+box -73 -176 73 176
+use sky130_fd_pr__nfet_01v8_VKD229  sky130_fd_pr__nfet_01v8_VKD229_3
+timestamp 1741959576
+transform 1 0 443 0 1 248
+box -73 -176 73 176
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_0
+timestamp 1741966214
+transform 1 0 531 0 1 732
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_1
+timestamp 1741966214
+transform 1 0 109 0 1 732
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_2
+timestamp 1741966214
+transform 1 0 197 0 1 732
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_3
+timestamp 1741966214
+transform 1 0 443 0 1 732
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_4
+timestamp 1741966214
+transform 1 0 -211 0 1 724
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_5
+timestamp 1741966214
+transform 1 0 -123 0 1 724
+box -109 -212 109 212
+use viapoly_M1  viapoly_M1_0 /foss/designs/mag/via
+timestamp 1647014411
+transform 1 0 172 0 1 222
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_1
+timestamp 1647014411
+transform 1 0 -6 0 1 286
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_2
+timestamp 1647014411
+transform 0 1 -486 -1 0 240
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_3
+timestamp 1647014411
+transform 1 0 -412 0 1 298
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_4
+timestamp 1647014411
+transform 1 0 324 0 1 286
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_5
+timestamp 1647014411
+transform 1 0 -421 0 1 488
+box 34 198 112 264
+<< labels >>
+rlabel metal1 -476 512 -378 546 1 A
+rlabel metal1 -184 0 628 55 1 vss
+rlabel metal1 -185 982 627 1037 1 vdd
+rlabel metal1 -26 432 228 466 1 Ab
+rlabel metal1 -471 702 -437 736 1 B
+rlabel metal1 -96 449 -62 483 1 Bb
+rlabel metal1 382 424 804 458 1 Z
+<< end >>

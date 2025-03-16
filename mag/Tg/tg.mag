@@ -1,0 +1,30 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1741822803
+<< poly >>
+rect 142 567 172 636
+rect 142 252 172 325
+<< metal1 >>
+rect 96 224 130 668
+rect 184 226 218 702
+use grid  grid_0 /foss/designs/mag
+timestamp 1735420333
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_KRUHEH  sky130_fd_pr__nfet_01v8_KRUHEH_0
+timestamp 1741822803
+transform 1 0 157 0 1 177
+box -73 -101 73 101
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_0
+timestamp 1741822308
+transform 1 0 157 0 1 786
+box -109 -212 109 212
+<< labels >>
+rlabel metal1 184 226 218 702 1 out
+rlabel metal1 96 224 130 668 1 in
+rlabel poly 142 567 172 636 1 n_clk
+rlabel poly 142 252 172 325 1 clk
+rlabel space 61 10 261 44 1 vss
+rlabel space 85 992 232 1026 1 vdd
+<< end >>

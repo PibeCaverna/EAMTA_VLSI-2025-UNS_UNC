@@ -1,0 +1,40 @@
+timestamp 1741807828
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use grid grid_0 1 0 61 0 1 10
+use viapoly_M1 viapoly_M1_0 1 0 40 0 1 252
+use sky130_fd_pr__pfet_01v8_3UHD8Q sky130_fd_pr__pfet_01v8_3UHD8Q_0 1 0 159 0 1 879
+use sky130_fd_pr__nfet_01v8_94VHSF sky130_fd_pr__nfet_01v8_94VHSF_0 1 0 159 0 1 163
+node "in" 0 0 96 466 pc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 0 33 988 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vss" 0 0 34 6 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_98_44#" 0 50.239 98 44 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3060 248 0 0 0 0 0 0 0 0 0 0
+node "out" 2 289.272 186 194 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22372 1384 0 0 0 0 0 0 0 0 0 0
+node "m1_98_908#" 0 47.6733 98 908 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2856 236 0 0 0 0 0 0 0 0 0 0
+node "a_144_218#" 953 391.533 144 218 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17790 1246 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_98_908#" "m1_98_44#" 1.81553
+cap "a_144_218#" "out" 16.3789
+cap "sky130_fd_pr__nfet_01v8_94VHSF_0/a_15_n45#" "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n15_n71#" 25.905
+cap "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n73_n45#" "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n15_n71#" 22.8613
+cap "sky130_fd_pr__nfet_01v8_94VHSF_0/a_15_n45#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_n73_n45#" 74.1886
+cap "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n73_n45#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_n73_n45#" -16.4283
+cap "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n15_n71#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_n73_n45#" 199.944
+cap "sky130_fd_pr__nfet_01v8_94VHSF_0/a_15_n45#" "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n73_n45#" 28.4559
+merge "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n15_n71#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_n15_n71#" -300.179 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -702 -294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_n15_n71#" "viapoly_M1_0/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#"
+merge "viapoly_M1_0/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" "a_144_218#"
+merge "sky130_fd_pr__nfet_01v8_94VHSF_0/VSUBS" "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n73_n45#" -71.1723 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -918 -190 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_94VHSF_0/a_n73_n45#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_3UHD8Q_0/VSUBS" "viapoly_M1_0/VSUBS"
+merge "viapoly_M1_0/VSUBS" "grid_0/a_n24_0#"
+merge "grid_0/a_n24_0#" "VSUBS"
+merge "VSUBS" "m1_98_44#"
+merge "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_n73_n45#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/w_n109_n107#" -221.252 0 0 0 0 -46652 -864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -884 -188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_3UHD8Q_0/w_n109_n107#" "grid_0/w_n61_476#"
+merge "grid_0/w_n61_476#" "m1_98_908#"
+merge "sky130_fd_pr__nfet_01v8_94VHSF_0/a_15_n45#" "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_15_n45#" -127.009 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1088 -200 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_3UHD8Q_0/a_15_n45#" "out"

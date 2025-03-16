@@ -1,0 +1,32 @@
+* NGSPICE file created from xor.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_MDJ67A a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_VKD229 a_15_n150# a_n15_n176# a_n73_n150# VSUBS
+X0 a_15_n150# a_n15_n176# a_n73_n150# VSUBS sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_KRUHEH a_15_n75# a_n15_n101# a_n73_n75# VSUBS
+X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2175 pd=2.08 as=0.2175 ps=2.08 w=0.75 l=0.15
+.ends
+
+Xsky130_fd_pr__pfet_01v8_MDJ67A_1 vdd Bb m1_n20_824# vdd sky130_fd_pr__pfet_01v8_MDJ67A
+Xsky130_fd_pr__pfet_01v8_MDJ67A_2 m1_n20_824# Ab vdd vdd sky130_fd_pr__pfet_01v8_MDJ67A
+Xsky130_fd_pr__pfet_01v8_MDJ67A_3 Z A m1_n20_824# vdd sky130_fd_pr__pfet_01v8_MDJ67A
+Xsky130_fd_pr__pfet_01v8_MDJ67A_5 Bb B vdd vdd sky130_fd_pr__pfet_01v8_MDJ67A
+Xsky130_fd_pr__pfet_01v8_MDJ67A_4 vdd A Ab vdd sky130_fd_pr__pfet_01v8_MDJ67A
+Xsky130_fd_pr__nfet_01v8_VKD229_0 vss B sky130_fd_pr__nfet_01v8_VKD229_3/a_15_n150#
++ vss sky130_fd_pr__nfet_01v8_VKD229
+Xsky130_fd_pr__nfet_01v8_VKD229_1 sky130_fd_pr__nfet_01v8_VKD229_1/a_15_n150# Bb vss
++ vss sky130_fd_pr__nfet_01v8_VKD229
+Xsky130_fd_pr__nfet_01v8_VKD229_2 Z Ab sky130_fd_pr__nfet_01v8_VKD229_1/a_15_n150#
++ vss sky130_fd_pr__nfet_01v8_VKD229
+Xsky130_fd_pr__nfet_01v8_VKD229_3 sky130_fd_pr__nfet_01v8_VKD229_3/a_15_n150# A Z
++ vss sky130_fd_pr__nfet_01v8_VKD229
+Xsky130_fd_pr__nfet_01v8_KRUHEH_0 Bb B vss vss sky130_fd_pr__nfet_01v8_KRUHEH
+Xsky130_fd_pr__nfet_01v8_KRUHEH_1 vss A Ab vss sky130_fd_pr__nfet_01v8_KRUHEH
+Xsky130_fd_pr__pfet_01v8_MDJ67A_0 m1_n20_824# B Z vdd sky130_fd_pr__pfet_01v8_MDJ67A
+.end
+

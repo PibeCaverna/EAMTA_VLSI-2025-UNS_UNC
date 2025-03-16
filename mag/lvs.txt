@@ -1,0 +1,17 @@
+Lvs, todos los .mag
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o andgate.spice
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o flipflop.spice
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o inverter.spice
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o NOR.spice
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o Tg.spice
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o xor.spice
+
+desde designs, consola:
+
+
+netgen lvs /headless/.xschem/simulations/andgate.spice /foss/designs/mag/andgate/andgate.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+netgen lvs /headless/.xschem/simulations/FF.spice /foss/designs/mag/FF/flipflop.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+netgen lvs /headless/.xschem/simulations/inverter.spice /foss/designs/mag/inverter/inverter.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+netgen lvs /headless/.xschem/simulations/NOR.spice /foss/designs/mag/NOR/NOR.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+netgen lvs /headless/.xschem/simulations/TG.spice /foss/designs/mag/Tg/Tg.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+netgen lvs /headless/.xschem/simulations/xor.spice /foss/designs/mag/XOR/xor.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl

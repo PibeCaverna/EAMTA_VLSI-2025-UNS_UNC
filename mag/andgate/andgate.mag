@@ -1,0 +1,118 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1741805378
+<< nwell >>
+rect 320 486 640 1063
+<< psubdiff >>
+rect 357 10 381 44
+rect 581 10 605 44
+<< nsubdiff >>
+rect 356 1026 604 1027
+rect 356 992 405 1026
+rect 552 992 604 1026
+rect 356 991 604 992
+<< psubdiffcont >>
+rect 381 10 581 44
+<< nsubdiffcont >>
+rect 405 992 552 1026
+<< poly >>
+rect 94 588 124 612
+rect 22 522 124 588
+rect 94 406 124 522
+rect 182 406 212 612
+rect 414 474 444 642
+rect 344 408 444 474
+rect 414 256 444 408
+<< locali >>
+rect 347 1031 613 1034
+rect 347 988 353 1031
+rect 608 988 613 1031
+rect 347 984 613 988
+<< viali >>
+rect 353 1026 608 1031
+rect 353 992 405 1026
+rect 405 992 552 1026
+rect 552 992 608 1026
+rect 353 988 608 992
+rect 354 44 609 49
+rect 354 10 381 44
+rect 381 10 581 44
+rect 581 10 609 44
+rect 354 6 609 10
+<< metal1 >>
+rect 288 1031 620 1037
+rect 42 868 88 1020
+rect 218 868 264 1020
+rect 288 988 353 1031
+rect 608 988 620 1031
+rect 288 982 620 988
+rect 362 868 408 982
+rect 130 592 176 720
+rect 0 538 100 572
+rect 130 546 344 592
+rect 0 446 202 480
+rect 298 474 344 546
+rect 450 507 496 660
+rect 298 408 414 474
+rect 450 465 640 507
+rect 298 390 344 408
+rect 226 344 344 390
+rect 450 229 496 465
+rect 42 8 88 160
+rect 362 55 408 160
+rect 289 49 621 55
+rect 289 6 354 49
+rect 609 6 621 49
+rect 289 0 621 6
+use grid  grid_0 /foss/designs/mag
+timestamp 1741740703
+transform 1 0 381 0 1 10
+box -61 -10 259 1053
+use grid  grid_1
+timestamp 1741740703
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_KRUHEH  sky130_fd_pr__nfet_01v8_KRUHEH_0
+timestamp 1741788638
+transform 1 0 429 0 1 181
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_VKD229  sky130_fd_pr__nfet_01v8_VKD229_0
+timestamp 1741788638
+transform 1 0 197 0 1 256
+box -73 -176 73 176
+use sky130_fd_pr__nfet_01v8_VKD229  sky130_fd_pr__nfet_01v8_VKD229_1
+timestamp 1741788638
+transform 1 0 109 0 1 256
+box -73 -176 73 176
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_0
+timestamp 1741788638
+transform 1 0 197 0 1 770
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_1
+timestamp 1741788638
+transform 1 0 109 0 1 770
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_MDJ67A  sky130_fd_pr__pfet_01v8_MDJ67A_2
+timestamp 1741788638
+transform 1 0 429 0 1 770
+box -109 -212 109 212
+use viapoly_M1  viapoly_M1_0
+timestamp 1647014411
+transform 1 0 310 0 1 210
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_1
+timestamp 1647014411
+transform 1 0 -12 0 1 324
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_2
+timestamp 1647014411
+transform 1 0 126 0 1 232
+box 34 198 112 264
+<< labels >>
+rlabel metal1 42 8 88 160 1 vss
+rlabel metal1 288 982 350 1037 1 vdd
+rlabel metal1 0 538 100 572 1 A
+rlabel metal1 0 446 202 480 1 B
+rlabel metal1 450 465 640 507 1 Z
+<< end >>

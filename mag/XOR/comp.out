@@ -1,0 +1,26 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_MDJ67A in circuit /foss/designs/mag/XOR/xor.spice (1)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_VKD229 in circuit /foss/designs/mag/XOR/xor.spice (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KRUHEH in circuit /foss/designs/mag/XOR/xor.spice (1)(2 instances)
+
+Subcircuit summary:
+Circuit 1: /headless/.xschem/simulations/x |Circuit 2: /foss/designs/mag/XOR/xor.spice 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (6)                
+sky130_fd_pr__pfet_01v8 (6)                |sky130_fd_pr__pfet_01v8 (6)                
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes /headless/.xschem/simulations/xor.spice and /foss/designs/mag/XOR/xor.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

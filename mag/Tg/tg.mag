@@ -8,7 +8,7 @@ rect 142 252 172 325
 << metal1 >>
 rect 96 224 130 668
 rect 184 226 218 702
-use grid  grid_0
+use grid  grid_0 /foss/designs/mag/
 timestamp 1741966214
 transform 1 0 61 0 1 10
 box -61 -10 259 1053

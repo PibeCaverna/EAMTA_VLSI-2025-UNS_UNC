@@ -1,41 +1,60 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1742163060
+timestamp 1742224769
+<< metal1 >>
+rect 288 982 1700 1037
+rect 0 466 114 500
+rect 196 466 450 500
+rect 840 408 1320 442
+rect 960 364 1028 374
+rect 1408 372 1800 414
+rect 960 286 1028 296
+rect 19 -92 1701 55
+rect 287 -1071 1693 -1021
+<< via1 >>
+rect 960 296 1028 364
+<< metal2 >>
+rect 0 296 960 364
+rect 1028 296 1038 364
 use inverter  inverter_0 /foss/designs/mag/inverter
-timestamp 1742163060
+timestamp 1742162383
 transform 1 0 320 0 1 0
 box 0 0 320 1063
 use inverter  inverter_1
-timestamp 1742163060
+timestamp 1742162383
 transform 1 0 1600 0 1 0
 box 0 0 320 1063
 use inverter  inverter_2
-timestamp 1742163060
+timestamp 1742162383
 transform -1 0 320 0 -1 -37
 box 0 0 320 1063
 use NOR  NOR_0 /foss/designs/mag/NOR
-timestamp 1741809433
+timestamp 1742224769
 transform 1 0 960 0 1 2
 box 0 -2 640 1063
 use NOR  NOR_1
-timestamp 1741809433
+timestamp 1742224769
 transform -1 0 1280 0 -1 -37
 box 0 -2 640 1063
 use tg  tg_0 /foss/designs/mag/Tg
-timestamp 1742163060
+timestamp 1742224769
 transform 1 0 0 0 1 0
 box 0 0 320 1063
 use tg  tg_1
-timestamp 1742163060
+timestamp 1742224769
 transform 1 0 640 0 1 0
 box 0 0 320 1063
 use tg  tg_2
-timestamp 1742163060
+timestamp 1742224769
 transform -1 0 1600 0 -1 -37
 box 0 0 320 1063
 use tg  tg_3
-timestamp 1742163060
+timestamp 1742224769
 transform -1 0 640 0 -1 -37
 box 0 0 320 1063
+<< labels >>
+rlabel metal2 0 296 960 364 1 clr
+rlabel space 0 466 130 500 1 D
+rlabel space 1408 372 1820 414 1 vout
 << end >>

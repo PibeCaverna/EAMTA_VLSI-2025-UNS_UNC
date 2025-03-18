@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1742228626
+timestamp 1742335551
 << poly >>
 rect 142 567 326 597
 rect -6 56 172 86
@@ -10,11 +10,21 @@ rect -6 -334 54 -268
 rect 296 -283 326 567
 rect 616 567 812 597
 rect 616 -93 646 567
+rect 782 295 1124 325
+rect 1094 155 1124 295
+rect 1586 272 1756 302
 rect 468 -123 646 -93
 rect 156 -313 326 -283
 rect 468 -372 498 -289
-rect 372 -406 498 -372
+rect 1125 -332 1191 -295
+rect 1125 -362 1458 -332
+rect 372 -406 648 -372
+rect 614 -586 648 -406
+rect 1586 -430 1616 272
+rect 1528 -496 1616 -430
+rect 1288 -568 1458 -538
 rect 168 -634 498 -604
+rect 1428 -673 1458 -568
 << metal1 >>
 rect 288 982 1700 1037
 rect 0 466 114 500
@@ -24,41 +34,75 @@ rect 840 408 1320 442
 rect 960 364 1028 374
 rect 1408 372 1800 414
 rect 960 286 1028 296
+rect 1073 151 1083 203
+rect 1135 151 1145 203
 rect 19 -92 1701 55
+rect 1125 -307 1135 -255
+rect 1187 -307 1197 -255
 rect 116 -406 338 -372
 rect 1002 -391 1012 -339
 rect 1064 -391 1074 -339
 rect 520 -449 832 -407
+rect 872 -479 882 -427
+rect 934 -479 944 -427
+rect 178 -538 188 -486
+rect 240 -538 250 -486
+rect 616 -580 626 -528
+rect 678 -580 688 -528
+rect 1276 -580 1286 -528
+rect 1338 -580 1348 -528
 rect 287 -1071 1693 -1021
 << via1 >>
 rect 960 296 1028 364
+rect 1083 151 1135 203
+rect 1135 -307 1187 -255
 rect 1012 -391 1064 -339
+rect 882 -479 934 -427
+rect 188 -538 240 -486
+rect 626 -580 678 -528
+rect 1286 -580 1338 -528
 << metal2 >>
 rect 0 296 960 364
 rect 1028 296 1038 364
 rect 960 -329 1028 296
+rect 1083 203 1135 213
+rect 1083 -245 1135 151
+rect 1083 -255 1187 -245
+rect 1083 -307 1135 -255
 rect 960 -339 1064 -329
 rect 960 -391 1012 -339
 rect 960 -397 1064 -391
 rect 1012 -401 1064 -397
+rect 882 -427 934 -417
+rect 4 -479 882 -434
+rect 1135 -434 1187 -307
+rect 934 -479 1187 -434
+rect 4 -486 1187 -479
+rect 882 -489 934 -486
+rect 188 -548 240 -538
+rect 626 -528 678 -518
+rect 1286 -528 1338 -518
+rect 678 -580 1286 -528
+rect 626 -590 678 -580
+rect 1286 -590 1338 -580
 use inverter  inverter_0 /foss/designs/mag/inverter
-timestamp 1742228626
+timestamp 1742335551
 transform 1 0 320 0 1 0
 box 0 0 320 1063
 use inverter  inverter_1
-timestamp 1742228626
+timestamp 1742335551
 transform 1 0 1600 0 1 0
 box 0 0 320 1063
 use inverter  inverter_2
-timestamp 1742228626
+timestamp 1742335551
 transform -1 0 320 0 -1 -37
 box 0 0 320 1063
 use NOR  NOR_0 /foss/designs/mag/NOR
-timestamp 1742228626
+timestamp 1742335551
 transform 1 0 960 0 1 2
 box 0 -2 640 1063
 use NOR  NOR_1
-timestamp 1742228626
+timestamp 1742335551
 transform -1 0 1280 0 -1 -37
 box 0 -2 640 1063
 use tg  tg_0 /foss/designs/mag/Tg
@@ -85,9 +129,30 @@ use viapoly_M1  viapoly_M1_1
 timestamp 1647014411
 transform 1 0 282 0 1 -620
 box 34 198 112 264
+use viapoly_M1  viapoly_M1_2
+timestamp 1647014411
+transform 1 0 1036 0 1 -54
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_3
+timestamp 1647014411
+transform 1 0 1085 0 1 -509
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_4
+timestamp 1647014411
+transform 1 0 580 0 1 -784
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_5
+timestamp 1647014411
+transform 1 0 1236 0 1 -784
+box 34 198 112 264
+use viapoly_M1  viapoly_M1_6
+timestamp 1647014411
+transform 1 0 1438 0 1 -694
+box 34 198 112 264
 << labels >>
-rlabel metal2 0 296 960 364 1 clr
-rlabel space 0 466 130 500 1 D
 rlabel space 1408 372 1820 414 1 vout
 rlabel poly -6 -334 24 86 1 n_clk
+rlabel space 0 466 130 500 1 D
+rlabel metal2 0 296 960 364 1 clr
+rlabel metal2 4 -486 882 -434 1 clk
 << end >>

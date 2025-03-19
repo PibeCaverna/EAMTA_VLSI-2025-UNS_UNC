@@ -1,19 +1,19 @@
-timestamp 1741809433
+timestamp 1742412190
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
 use sky130_fd_pr__nfet_01v8_3Y5EQC sky130_fd_pr__nfet_01v8_3Y5EQC_0 1 0 373 0 1 324
-use sky130_fd_pr__nfet_01v8_KRUHEH sky130_fd_pr__nfet_01v8_KRUHEH_0 1 0 283 0 1 175
-use sky130_fd_pr__nfet_01v8_KRUHEH sky130_fd_pr__nfet_01v8_KRUHEH_1 1 0 371 0 1 175
-use sky130_fd_pr__pfet_01v8_MDJ67A sky130_fd_pr__pfet_01v8_MDJ67A_0 1 0 459 0 1 732
-use sky130_fd_pr__pfet_01v8_MDJ67A sky130_fd_pr__pfet_01v8_MDJ67A_2 1 0 195 0 1 732
-use sky130_fd_pr__pfet_01v8_MDJ67A sky130_fd_pr__pfet_01v8_MDJ67A_3 1 0 283 0 1 732
-use sky130_fd_pr__pfet_01v8_MDJ67A sky130_fd_pr__pfet_01v8_MDJ67A_4 1 0 371 0 1 732
+use sky130_fd_pr__nfet_01v8_KRUHEH__0 sky130_fd_pr__nfet_01v8_KRUHEH_0 1 0 283 0 1 175
+use sky130_fd_pr__nfet_01v8_KRUHEH__0 sky130_fd_pr__nfet_01v8_KRUHEH_1 1 0 371 0 1 175
+use sky130_fd_pr__pfet_01v8_MDJ67A__0 sky130_fd_pr__pfet_01v8_MDJ67A_0 1 0 459 0 1 732
+use sky130_fd_pr__pfet_01v8_MDJ67A__0 sky130_fd_pr__pfet_01v8_MDJ67A_2 1 0 195 0 1 732
+use sky130_fd_pr__pfet_01v8_MDJ67A__0 sky130_fd_pr__pfet_01v8_MDJ67A_3 1 0 283 0 1 732
+use sky130_fd_pr__pfet_01v8_MDJ67A__0 sky130_fd_pr__pfet_01v8_MDJ67A_4 1 0 371 0 1 732
 use viapoly_M1 viapoly_M1_1 1 0 168 0 1 96
-use grid grid_0 1 0 381 0 1 8
-use grid grid_1 1 0 61 0 1 10
+use grid__0 grid_0 1 0 381 0 1 8
+use grid__0 grid_1 1 0 61 0 1 10
 node "m1_398_42#" 0 28.8408 398 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2584 220 0 0 0 0 0 0 0 0 0 0
 node "m1_288_0#" 0 36.8769 288 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3672 244 0 0 0 0 0 0 0 0 0 0
 node "vss" 0 29.6388 222 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2776 232 0 0 0 0 0 0 0 0 0 0
@@ -28,60 +28,60 @@ node "vdd" 1 52.2814 224 860 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "A" 693 229.095 356 262 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13316 936 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "B" 683 225.302 180 520 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13136 924 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "vss" "m1_0_406#" 0.260355
-cap "m1_292_982#" "m1_312_866#" 20.9524
-cap "A" "m1_312_866#" 1.36171
-cap "A" "m1_0_310#" 0.371531
-cap "m1_0_310#" "m1_222_220#" 2.75
-cap "m1_288_0#" "vout" 8.37669
-cap "B" "m1_0_310#" 2.28053
-cap "m1_288_0#" "vss" 9.65854
-cap "B" "m1_292_982#" 0.0559193
-cap "B" "A" 89.931
-cap "B" "m1_222_220#" 0.0334202
-cap "m1_312_866#" "m1_132_522#" 4.51282
-cap "m1_0_406#" "m1_312_866#" 4.5
-cap "m1_0_310#" "m1_0_406#" 92
-cap "m1_292_982#" "m1_132_522#" 1.85561
-cap "A" "m1_132_522#" 2.28389
+cap "m1_222_220#" "B" 0.0334202
+cap "m1_132_522#" "vdd" 3.93296
 cap "m1_288_0#" "m1_398_42#" 5.73913
-cap "A" "m1_0_406#" 6.33012
-cap "vout" "m1_398_42#" 6.86239
-cap "vss" "m1_398_42#" 14.6667
-cap "m1_0_406#" "m1_222_220#" 4.71429
-cap "B" "m1_132_522#" 10.2617
-cap "vdd" "m1_312_866#" 34.0377
-cap "B" "m1_0_406#" 7.92901
-cap "vout" "m1_312_866#" 11.9461
-cap "vout" "m1_0_310#" 7.65327
-cap "vdd" "m1_292_982#" 13.3023
-cap "vout" "A" 18.7346
-cap "B" "vdd" 0.292211
-cap "m1_0_406#" "m1_132_522#" 70.6667
-cap "m1_288_0#" "B" 0.418362
-cap "vss" "m1_222_220#" 9.26316
-cap "vout" "B" 3.91041
-cap "B" "vss" 0.1345
-cap "vdd" "m1_132_522#" 3.93296
-cap "A" "m1_398_42#" 0.127325
+cap "vss" "m1_0_406#" 0.260355
+cap "m1_0_310#" "vout" 7.65327
+cap "vss" "B" 0.1345
+cap "m1_0_406#" "A" 6.33012
+cap "A" "B" 89.931
+cap "m1_0_406#" "B" 7.92901
+cap "m1_398_42#" "vout" 6.86239
+cap "m1_292_982#" "vdd" 13.3023
+cap "m1_288_0#" "vss" 9.65854
+cap "m1_312_866#" "A" 1.36171
+cap "m1_312_866#" "m1_0_406#" 4.5
 cap "m1_288_0#" "m1_0_406#" 2.40796
-cap "vout" "m1_132_522#" 29.6154
-cap "vout" "m1_0_406#" 43.0101
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" "grid_1/w_n61_476#" 28.6555
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "grid_1/a_n24_0#" 6.17304
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" 8.66625
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" "grid_1/a_n24_0#" 66.7463
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" "grid_1/w_n61_476#" 195.082
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" 43.3806
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" 15.7315
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" "grid_1/a_n24_0#" 3.12136
-cap "grid_1/w_n61_476#" "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" 83.5817
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" 27.3975
-cap "grid_1/a_n24_0#" "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" 72.8713
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" 48.3011
-cap "grid_1/a_n24_0#" "grid_1/w_n61_476#" -54.4642
-cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" 8.48653
+cap "m1_288_0#" "B" 0.418362
+cap "m1_132_522#" "A" 2.28389
+cap "m1_132_522#" "m1_0_406#" 70.6667
+cap "A" "vout" 18.7346
+cap "m1_0_406#" "vout" 43.0101
+cap "m1_132_522#" "B" 10.2617
+cap "B" "vout" 3.91041
+cap "m1_222_220#" "m1_0_310#" 2.75
+cap "m1_312_866#" "m1_132_522#" 4.51282
+cap "m1_312_866#" "vout" 11.9461
+cap "m1_292_982#" "B" 0.0559193
+cap "m1_288_0#" "vout" 8.37669
+cap "m1_132_522#" "vout" 29.6154
+cap "m1_312_866#" "m1_292_982#" 20.9524
+cap "m1_0_310#" "A" 0.371531
+cap "m1_0_406#" "m1_0_310#" 92
+cap "vss" "m1_398_42#" 14.6667
+cap "B" "vdd" 0.292211
+cap "m1_0_310#" "B" 2.28053
+cap "m1_222_220#" "vss" 9.26316
+cap "m1_132_522#" "m1_292_982#" 1.85561
+cap "A" "m1_398_42#" 0.127325
+cap "m1_312_866#" "vdd" 34.0377
+cap "m1_222_220#" "m1_0_406#" 4.71429
 cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "grid_1/w_n61_476#" 96.5431
+cap "grid_1/w_n61_476#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" 28.6555
+cap "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" "grid_1/a_n24_0#" 72.8713
+cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" 48.3011
+cap "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" 8.48653
+cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "grid_1/a_n24_0#" 6.17304
+cap "grid_1/a_n24_0#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" 66.7463
+cap "grid_1/w_n61_476#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" 195.082
+cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" 43.3806
+cap "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" 8.66625
+cap "viapoly_M1_1/sky130_fd_pr__nfet_01v8_3Y5EQC_0/a_n33_66#" "grid_1/w_n61_476#" 83.5817
+cap "grid_1/a_n24_0#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" 3.12136
+cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n15_n176#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" 15.7315
+cap "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_n73_n150#" "sky130_fd_pr__pfet_01v8_MDJ67A_4/a_15_n150#" 27.3975
+cap "grid_1/w_n61_476#" "grid_1/a_n24_0#" -54.4642
 merge "grid_1/a_n24_0#" "sky130_fd_pr__nfet_01v8_KRUHEH_0/a_n73_n75#" -209.877 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4060 -760 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_01v8_KRUHEH_0/a_n73_n75#" "vss"
 merge "vss" "m1_222_220#"

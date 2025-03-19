@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1742335551
+timestamp 1742412190
 << poly >>
 rect 142 567 326 597
 rect -6 56 172 86
@@ -86,23 +86,23 @@ rect 678 -580 1286 -528
 rect 626 -590 678 -580
 rect 1286 -590 1338 -580
 use inverter  inverter_0 /foss/designs/mag/inverter
-timestamp 1742335551
+timestamp 1742412190
 transform 1 0 320 0 1 0
 box 0 0 320 1063
 use inverter  inverter_1
-timestamp 1742335551
+timestamp 1742412190
 transform 1 0 1600 0 1 0
 box 0 0 320 1063
 use inverter  inverter_2
-timestamp 1742335551
+timestamp 1742412190
 transform -1 0 320 0 -1 -37
 box 0 0 320 1063
 use NOR  NOR_0 /foss/designs/mag/NOR
-timestamp 1742335551
+timestamp 1742412190
 transform 1 0 960 0 1 2
 box 0 -2 640 1063
 use NOR  NOR_1
-timestamp 1742335551
+timestamp 1742412190
 transform -1 0 1280 0 -1 -37
 box 0 -2 640 1063
 use tg  tg_0 /foss/designs/mag/Tg
@@ -150,9 +150,11 @@ timestamp 1647014411
 transform 1 0 1438 0 1 -694
 box 34 198 112 264
 << labels >>
-rlabel space 1408 372 1820 414 1 vout
+rlabel metal1 1408 372 1820 414 1 vout
 rlabel poly -6 -334 24 86 1 n_clk
-rlabel space 0 466 130 500 1 D
+rlabel metal1 0 466 130 500 1 D
 rlabel metal2 0 296 960 364 1 clr
 rlabel metal2 4 -486 882 -434 1 clk
+rlabel metal1 288 982 1700 1037 1 vdd
+rlabel metal1 287 -1071 1693 -1021 1 vdd
 << end >>

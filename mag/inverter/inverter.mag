@@ -1,14 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1742162383
+timestamp 1742412190
 << poly >>
 rect 144 218 174 811
 << metal1 >>
 rect 98 908 132 992
 rect 186 194 220 852
 rect 98 44 132 134
-use grid  grid_0
+use grid__0  grid_0
 timestamp 1741966214
 transform 1 0 61 0 1 10
 box -61 -10 259 1053
